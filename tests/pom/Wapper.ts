@@ -16,6 +16,7 @@ try {
 	const ele=this.page.locator(locator);
 await ele.clear();
 await ele.fill(text);
+	console.log("Login")
 } catch (error) {
 	
 }
